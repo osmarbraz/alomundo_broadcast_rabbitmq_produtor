@@ -23,7 +23,7 @@ public class Principal {
     private static final String EXCHANGE = "demo.fanout";
 
     // URL de conexão com o servidor RabbitMQ.
-    private static final String URL_RABBITMQ = "amqps://usuario:senha@host/virtualhost";
+    private static final String URL_RABBITMQ = "amqp://guest:guest@localhost:5672";
 
     // Mensagem que será publicada na Exchange.
     private static final String MENSAGEM = "Ola Mundo Broadcast! RabbitMQ CloudAMQP";
